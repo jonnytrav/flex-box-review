@@ -1,0 +1,9 @@
+.nav-link-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.nav-link {
+  flex-basis: 10%;
+  margin: 0.2% 1.1% 0.2% 1.1%;
+}
