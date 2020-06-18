@@ -1,3 +1,14 @@
+.intro-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.intro-description {
+  /* border: 1px solid black; */
+  flex-basis: 48%;
+  box-sizing: border-box;
+  padding: 1.5%;
+}
 .nav-link-container {
   display: flex;
   flex-flow: row nowrap;
@@ -6,4 +17,18 @@
 .nav-link {
   flex-basis: 10%;
   margin: 0.2% 1.1% 0.2% 1.1%;
+}
+.profile-pic {
+  border: 1px solid black;
+  flex-basis: 48%;
+}
+.project-icon {
+  border: 1px solid black;
+  flex-basis: 22%;
+  /* padding adds some white space but images should be squares later */
+  padding: 1.1% 0.6% 1.1% 0.6%;
+}
+.project-icons-container {
+  display: flex;
+  flex-flow: row wrap;
 }
