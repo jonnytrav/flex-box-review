@@ -1,3 +1,11 @@
+.contact-me-button {
+  width: 10%;
+}
+.footer-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
 .intro-container {
   display: flex;
   flex-flow: row nowrap;
